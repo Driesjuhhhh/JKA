@@ -220,7 +220,7 @@ h6 {
 }
 
 
-.buy-tickets, .sponsorons {
+.buy-tickets {
   color:white;
   background: var(--primary-color);
   padding: 7px 22px;
@@ -234,7 +234,7 @@ h6 {
   white-space: nowrap;
 }
 
-.buy-tickets:hover, .sponsorons:hover {
+.buy-tickets:hover {
   background: none;
   color:white;
 }
@@ -395,7 +395,7 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  .buy-tickets, .sponsorons {
+  .buy-tickets {
     display: none;
   }
 
@@ -820,38 +820,33 @@ h6 {
 #sponsors img {
   transition: all 0.4s ease-in-out;
 }
-#buy-tickets, #sponsorons {
+#buy-tickets {
   padding: 60px 0;
 }
 
-#buy-tickets .card,
-#sponsorons .card {
+#buy-tickets .card {
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover,
-#sponsorons .card:hover {
+#buy-tickets .card:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr,
-#sponsorons .card hr {
+#buy-tickets .card hr {
   margin: 25px 0;
 }
 
-#buy-tickets .card .card-title,
-#sponsorons .card .card-title {
+#buy-tickets .card .card-title {
   margin: 10px 0;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-#buy-tickets .card .card-price,
-#sponsorons .card .card-price {
+#buy-tickets .card .card-price {
   font-size: 40px;
   margin: 0;
 }
