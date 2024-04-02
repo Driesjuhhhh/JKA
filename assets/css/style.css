@@ -855,7 +855,6 @@ h6 {
 
 .taferelen-button button:hover {
   background: var(--primary-color);
-  cursor: not-allowed;
 }
 
 #buy-tickets .card ul li {
