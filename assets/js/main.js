@@ -1,4 +1,4 @@
-document.addEventListener('contextmenu', event => event.preventDefault());
+// document.addEventListener('contextmenu', event => event.preventDefault());
 
 (function() {
   "use strict";
@@ -143,4 +143,6 @@ document.addEventListener('contextmenu', event => event.preventDefault());
     })
   });
 
+
+  new PureCounter();
 })()
