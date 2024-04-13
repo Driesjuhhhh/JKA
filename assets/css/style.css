@@ -48,6 +48,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  overflow: hidden;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -769,7 +773,7 @@ h6 {
   margin-bottom: 0;
 }
 
-#locatie, #gallery, #sponsors, #taferelen, #buy-tickets, #team, #contact {
+#locatie, #gallery, #sponsors, #taferelen, #buy-tickets, #team, #contact, #facts {
   padding: 60px 0;
   z-index: 50;
   background-color: white;
@@ -1051,9 +1055,9 @@ h6 {
   position: relative;
   text-align: center;
   background: var(--color-text);
-  border: 2px solid var(--primary-color-opacity);
   border-radius: 50px;
-  background-color: var(--primary-color-opacity);
+  background-color: rgba(26, 114, 141, 0.4);
+  margin: 25px
 }
 
 .count-box i {
